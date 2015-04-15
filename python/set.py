@@ -20,7 +20,18 @@ print "add" , t
 t.update("123","2","3")
 print t
 
-t.remove("l")
+print t.remove("l")
 print t
+
+class haha(object):
+	def __init__(self):
+		pass
+
+hh = haha()
+aa = set()
+aa.add(hh)
+print aa
+aa.remove(hh)
+help(aa)
 
 
